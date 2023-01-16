@@ -43,7 +43,14 @@ class Scene {
     
     displayInHtml(){
         
-        let presentation = document.getElementById("")
+        let presentation = document.getElementById("resume")
+         let question = document.getElementById("question")
+         
+         let choice1=document.getElementById("chce1")
+         
+         let choice2=document.getElementById("chce2")
+         
+         let image = document.getElementById("img")
         
     }
     
