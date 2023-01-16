@@ -1,0 +1,41 @@
+body{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    main{
+        .left{
+            display:grid;
+            grid-row-start: 1;
+            grid-row-end: 1;
+            h1{
+                
+            }
+        }
+        .middle{
+            forme{
+                h2{
+                    
+                }
+                #chce1{
+                    
+                }
+                label{
+                    
+                }
+                #chce2{
+                    
+                }
+                label{
+                    
+                }
+            }
+            
+        }
+        .rigth{
+            figure{
+                img{
+                    
+                }
+            }
+        }
+    }
+}
