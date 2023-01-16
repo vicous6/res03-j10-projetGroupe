@@ -43,7 +43,9 @@ class Scene {
     
     displayInHtml(){
         
+        
         let presentation = document.getElementById("resume")
+        
          let question = document.getElementById("question")
          
          let choice1=document.getElementById("chce1")
@@ -52,6 +54,13 @@ class Scene {
          
          let image = document.getElementById("img")
         
+        
+        presentation.textContent = this.intro;
+        
+        question.textContent = this.#question;
+        choice1.textContent=this.#choix[0].text;
+        choice2.textContent=this.#choix[1].text;
+        image.src= this.#illustration;
     }
     
     
