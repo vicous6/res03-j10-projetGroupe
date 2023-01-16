@@ -4,7 +4,7 @@ class Progress {
 
     constructor()
     {
-        this.#progress=[]
+        this.#progress=[0]
        
         
     }

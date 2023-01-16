@@ -48,9 +48,9 @@ class Scene {
         
          let question = document.getElementById("question")
          
-         let choice1=document.getElementById("chce1")
+         let choice1=document.getElementById("lab1")
          
-         let choice2=document.getElementById("chce2")
+         let choice2=document.getElementById("lab2")
          
          let image = document.getElementById("img")
         

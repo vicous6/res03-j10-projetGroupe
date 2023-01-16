@@ -6,32 +6,37 @@ import { Progress } from './classes/progress.js';
 import { ProgressTest } from './classes-test/progress.js';
 
 window.addEventListener('DOMContentLoaded', (event) => {
+
+//   let form = document.getElementsByTagName("form")
   
-  let button = document.getElementById("button")
-  let form = document.getElementsByTagName("form")
+  let scene0 = new Scene(0,"intro","presentqefvrqesration","question","textno",2,"text2",3)
+   let scene1 = new Scene(1,"intro","preseqesvcevntation","question","tet bommmmm",2,"text2",3)
+    let scene2 = new Scene(2,"inteqrcqesdcro","presentation","questierfqecdqcon","et voilaaaaa",2,"text2",3)
   
-  let scene0 = new Scene(0,"intro","presentation","question","textno",2,"text2",3)
-  
-  let scene2 =new SceneTest()
+//   let scene2 =new SceneTest()
 
 
-let tab = new ProgressTest
-
+let progress = new Progress
+console.log(progress)
 // tab.test()
 //   console.log(scene0)
 //   scene2.test()
-//   scene0.displayInHtml()
 
-    
+  scene0.displayInHtml()
+
+     
+  let button = document.getElementById("button")
+  
 button.addEventListener("click", function(event){
     
     event.preventDefault()
-  let radio1= document.getElementById("chce1")
-  let radio2 = document.getElementById("chce2")
+     scene2.displayInHtml()
+    console.log(progress)
+    progress.progress()
+    
+    scene0.changeProgress(progress)
   
   
-  console.log(radio1.checked)
-   console.log(radio2.checked)
     
 })
 
