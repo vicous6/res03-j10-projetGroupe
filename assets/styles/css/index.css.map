@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+{"version":3,"sourceRoot":"","sources":["../sass/_reset.scss","../sass/_homepage.scss","../sass/index.scss"],"names":[],"mappings":"AACA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;EAaC;EACA;EACA;EACA;EACA;EACA;;;AAED;AACA;AAAA;EAEC;;;AAED;EACC;;;AAED;EACC;;;AAED;EACC;;;AAED;AAAA;EAEC;EACA;;;AAED;EACC;EACA;;;AC1CD;EACI;EACA;;AAEI;EACI;EACA;;ACFZ;AAAA","file":"index.css"}
+=======
 {"version":3,"sourceRoot":"","sources":["../sass/_reset.scss","../sass/index.scss"],"names":[],"mappings":"AACA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;EAaC;EACA;EACA;EACA;EACA;EACA;;;AAED;AACA;AAAA;EAEC;;;AAED;EACC;;;AAED;EACC;;;AAED;EACC;;;AAED;AAAA;EAEC;EACA;;;AAED;EACC;EACA;;;ACrCD;AAAA","file":"index.css"}
+>>>>>>> 19b673335b2de60acfa792c2fe9cdd763b6bfef6
