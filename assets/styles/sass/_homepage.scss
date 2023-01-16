@@ -1,12 +1,15 @@
 body{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
     main{
         .left{
+            display:grid;
+            grid-template-columns: 1fr 3fr;
+
             h1{
-                
-            }
-        }
+
         .middle{
-            forme{
+            form{
                 h2{
                     
                 }
