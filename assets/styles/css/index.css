@@ -54,8 +54,7 @@ body {
 }
 body main .left {
   display: grid;
-  grid-row-start: 1;
-  grid-row-end: 1;
+  grid-template-columns: 1fr 3fr;
 }
 /* Ligne de commande pour sass (petit rappel)
 sass -w assets/styles/sass:assets/styles/css */
