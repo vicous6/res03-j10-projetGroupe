@@ -25,8 +25,13 @@ let tab = new ProgressTest
     
 button.addEventListener("click", function(event){
     
-    console.log(form) 
-   
+    event.preventDefault()
+  let radio1= document.getElementById("chce1")
+  let radio2 = document.getElementById("chce2")
+  
+  
+  console.log(radio1.checked)
+   console.log(radio2.checked)
     
 })
 
