@@ -41,7 +41,11 @@ class Scene {
         return this.#choix;
     }
     
-
+    displayInHtml(){
+        
+        let presentation = document.getElementById("")
+        
+    }
     
     
 }
