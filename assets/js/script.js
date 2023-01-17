@@ -9,9 +9,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
 //   let form = document.getElementsByTagName("form")
   let data = []
   
-  let scene0 = new Scene(0,"intro  0 ","presentqefvrqesration","question 0","textno",1,"text2",2)
-   let scene1 = new Scene(1,"intro","preseqesvcevntation","question 1","tet bommmmm",3,"text2",4)
-    let scene2 = new Scene(2,"inteqrcqesdcro","presentation","question 2","et voilaaaaa",5,"text2",6)
+  let scene0 = new Scene(0,"Benvenue dans cette nouvelle aventure (tin tin tin ) ","assets/src/images/1000_F_59827834_i4245GImXiV5Bde6RFJEPNXMFvRNKH2t.jpg","Choisissez quel personnage vous souhaiterez incarner","Le Père Noel",1,"Le Mère Noel",2)
+   let scene1 = new Scene(1,"deuxièeme introoooo","assets/src/images/1000_F_63923978_s2mPCruPpYawQfHHr1B4nB2sIAFackIK.jpg","question 1","tet bommmmm",3,"text2",4)
+    let scene2 = new Scene(2,"inteqrcqesdcro","assets/src/images/1000_F_323861330_JTzrw3SEVhzyTt19K942of6i5mbySSHc.jpg","question 2","et voilaaaaa",5,"text2",6)
   
 
 
