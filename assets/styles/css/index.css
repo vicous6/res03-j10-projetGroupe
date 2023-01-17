@@ -48,14 +48,79 @@ table {
   border-spacing: 0;
 }
 
-body {
+body main {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: 100vh;
 }
 body main .left {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-column: 1/2;
 }
+body main .left h1 {
+  padding: 2rem;
+  font-family: "Speciale Elite";
+  height: 60%;
+  width: 60%;
+  align-self: center;
+  justify-self: center;
+  background: grey;
+}
+body main .middle {
+  display: grid;
+  background-color: grey;
+}
+body main .middle form {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 5fr 1fr 1fr 1fr;
+  padding: 1rem;
+  align-self: center;
+  height: 60vh;
+  width: 80%;
+  background-color: red;
+  margin: 0 auto;
+}
+body main .middle form h2 {
+  text-align: center;
+  font-family: "Montserrat";
+  grid-column: 1/3;
+  align-self: center;
+  justify-self: center;
+}
+body main .middle form #chce1 {
+  width: 2vw;
+  align-self: center;
+  justify-self: center;
+}
+body main .middle form #lab1 {
+  align-self: center;
+}
+body main .middle form #chce2 {
+  width: 2vw;
+  align-self: center;
+  justify-self: center;
+}
+body main .middle form #lab2 {
+  align-self: center;
+}
+body main .middle form #button {
+  grid-column: 1/3;
+  margin: 0 auto;
+  width: 60%;
+  height: 60%;
+  align-self: center;
+  justify-self: center;
+}
+body main .right {
+  display: grid;
+  grid-column: 3/4;
+}
+body main .right figure #img {
+  width: 100%;
+}
+
 /* Ligne de commande pour sass (petit rappel)
 sass -w assets/styles/sass:assets/styles/css */
 
