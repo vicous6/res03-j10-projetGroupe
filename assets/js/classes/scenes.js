@@ -43,14 +43,30 @@ class Scene {
     
     displayInHtml(){
         
+        
         let presentation = document.getElementById("resume")
+        
          let question = document.getElementById("question")
          
-         let choice1=document.getElementById("chce1")
+         let choice1=document.getElementById("lab1")
          
-         let choice2=document.getElementById("chce2")
+         let choice2=document.getElementById("lab2")
          
          let image = document.getElementById("img")
+        
+         let input0 = document.getElementById("chce1")
+         
+        let input1 = document.getElementById("chce2")
+        
+        presentation.textContent = this.intro;
+        
+        question.textContent = this.#question;
+        choice1.textContent=this.#choix[0].text;
+        choice2.textContent=this.#choix[1].text;
+        input0.setAttribute("value", this.#choix[0].destination)
+           input1.setAttribute("value", this.#choix[1].destination)
+        image.src= this.#illustration;
+        
         
     }
     

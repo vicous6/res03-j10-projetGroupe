@@ -22,6 +22,7 @@ class SceneTest {
     let destination1= 3;
     
     this.#scene = new Scene(id,intro,illustration,question,text0,destination0,text1,destination1)
+    
     console.log(this.#scene)
     console.log(this.#scene.id)
     console.log(this.#scene.intro)
