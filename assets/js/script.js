@@ -8,6 +8,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 //   let form = document.getElementsByTagName("form")
   let data = []
+
   let scene0 = new Scene(0, "Vous incarnez le Père Noël, vous avez reçu un mail de la Mère Joël qui vous dis qu\'il y a un espion dans votre atelier. Armé de votre BFG (Big Fucking Gun) vous courrez à l\'atelier malgré l\'heure tardive", "assets/src/images/1000_F_59827834_i4245GImXiV5Bde6RFJEPNXMFvRNKH2t.jpg", " 2 possibilités s'offre à vous:", "Vous allez au toilette car il est l'heure de la grosse commission", 1, "Vous entrez dans votre atelier et vous cachez dans un endroit sombre pour ne pas être vu.", 2)
   let scene1 = new Scene(1, "", "assets/src/images/1000_F_63923978_s2mPCruPpYawQfHHr1B4nB2sIAFackIK.jpg", "Vous courrez à toute allure mais Joséphine ange gardien vous bloque la route", "Vous sortez le BFG.", 3, " Vous lui dite de faire attention à la peau de banane derriere elle.", 4)
   let scene2 = new Scene(2, "Vous voyez un de vos petit lutin qui essai de se faire discret", "assets/src/images/1000_F_323861330_JTzrw3SEVhzyTt19K942of6i5mbySSHc.jpg", "Que faites vous?", "Vous l'attrapez par le chapeau", 5, " Vous lui demandait se qu'il fait içi à cette heure si tardive", 6)
@@ -22,6 +23,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         data.push(scene4);
          data.push(scene5);
           data.push(scene6);
+
       
       
     console.log(data);
